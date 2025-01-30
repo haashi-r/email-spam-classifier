@@ -1,0 +1,1 @@
+web: gunicorn --bind :$PORT email_model:app
